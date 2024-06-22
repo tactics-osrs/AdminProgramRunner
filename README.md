@@ -1,2 +1,31 @@
-# AdminProgramRunner
-Uses powershell to search for the input's .exe and then attempts to open the program as administrator if program is found.
+# PowerShell Script to Run Programs as Administrator
+
+This repository contains a PowerShell script that prompts the user for the path to an executable file and then runs that file as an administrator.
+
+## Script Details
+
+The script does the following:
+
+1. Prompts the user to enter the path to the program they want to run.
+2. Checks if the file exists.
+3. If the file exists, it tries to run the program as an administrator.
+4. If an error occurs while trying to run the program, it catches the error and informs the user.
+5. If the file does not exist, it informs the user.
+
+## Usage
+
+To use this script, follow these steps:
+
+1. Open PowerShell.
+2. Navigate to the directory where the script is located.
+3. Run the script by typing `.\YourScriptName.ps1` (replace `YourScriptName.ps1` with the name of your script).
+
+Please replace `$path` with your actual program path.
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+## License
+
+MIT
