@@ -18,14 +18,16 @@ To use this script, follow these steps:
 
 1. Open PowerShell.
 2. Navigate to the directory where the script is located.
-3. Run the script by typing `.\YourScriptName.ps1` (replace `YourScriptName.ps1` with the name of your script).
+3. Run the script by typing `.\PowerSearch.ps1`.
 
-Please replace `$path` with your actual program path.
+   *Alternatively you can right click the file and run it directly with powershell.*
+
+
 
 ## Contributing
 
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-## License
+## Licesnse
 
 MIT
